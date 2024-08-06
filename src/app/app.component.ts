@@ -7,7 +7,6 @@ import { DisplayDataComponent } from './display-data/display-data.component';
   standalone: true,
   imports: [RouterOutlet, DisplayDataComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
 })
 export class AppComponent {
   title = 'angular-project';
