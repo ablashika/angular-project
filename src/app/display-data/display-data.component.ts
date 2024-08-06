@@ -13,7 +13,6 @@ type Post = {
   standalone: true,
   imports: [CommonModule, HttpClientModule],
   templateUrl: './display-data.component.html',
-  styleUrls: ['./display-data.component.css']
 })
 export class DisplayDataComponent implements OnInit {
   httpClient = inject(HttpClient);
